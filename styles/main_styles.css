@@ -845,7 +845,7 @@ select option {
 .sticky-scroll-top{
 	position:fixed;
 	top:0;
-	z-index:99999;
+	z-index:100;
 }
 
 .header.scrolled .main_nav {
