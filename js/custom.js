@@ -1030,3 +1030,15 @@ $(document).ready(function()
     	}	
     }
 });
+
+$(document).ready(function () {  
+	var top = $('.sticky-top').offset().top;
+	$(window).scroll(function (event) {
+	  var y = $(this).scrollTop();
+	  if (y >= top)
+		$('.sticky-top').addClass('sticky-scroll-top');
+	  else
+		$('.sticky-top').removeClass('sticky-scroll-top');
+	  $('.sticky-top').width($('.sticky-top').parent().width());
+	});
+  });

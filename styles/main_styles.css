@@ -285,7 +285,7 @@ section {
 }
 
 .header.scrolled .top_bar {
-	display: none;
+	display:none;
 }
 
 .top_bar_contact {
@@ -841,6 +841,11 @@ select option {
 	border-top: solid 1px #f2f2f2;
 	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 	background: #FFFFFF;
+}
+.sticky-scroll-top{
+	position:fixed;
+	top:0;
+	z-index:99999;
 }
 
 .header.scrolled .main_nav {
